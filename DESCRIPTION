@@ -1,0 +1,19 @@
+Package: MRBCEE
+Type: Package
+Title: Mendelian Randomization using Bias-correction Correlated Estimating Equation
+Version: 0.1.0
+Author: Yihe Yang
+Maintainer: Yihe Yang <yxy1234@case.edu>
+Description: Implements the MRABCEE (Mendelian Randomization using Bias-correction Correlated Estimating Equation) approach.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Imports: 
+    MASS,
+    Rcpp (>= 1.0.0),
+    RcppArmadillo,
+    mvtnorm,
+    varbvs,
+    Matrix
+ORCID: 0000-0001-6563-3579
